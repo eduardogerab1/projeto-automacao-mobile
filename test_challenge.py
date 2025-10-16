@@ -4,7 +4,6 @@ from appium.options.common.base import AppiumOptions
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
 options = AppiumOptions()
 options.load_capabilities({
 	"platformName": "Android",
